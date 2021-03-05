@@ -1,0 +1,16 @@
+<p>parent works!</p>
+<hr>
+<label for="usr">Color:</label>
+<br>
+<input 
+#monInput
+(input)="onchangeColor(monInput.value)"
+type="text" class="form-control" id="usr">
+
+<hr>
+
+<div [style.background-color]="parentColor" class="alert alert-success">Ali Bouyahya</div>
+<hr>
+<button (click)="senddatatochild()" class="btn btn-primary">
+    Send Data To Child
+</button>  

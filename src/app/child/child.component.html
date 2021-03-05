@@ -1,0 +1,17 @@
+<app-parent (sendColorFromParent)="treatdatafromparent($event)"  ></app-parent>
+<p>child works!</p>
+<hr>
+ <div  >Hi the color of the Parent Component is : {{color}} 
+    
+
+ </div>  
+ 
+<!-- <div [style.backgroundColor]="parentColor" [(ngModel)]="parentColor">
+    Bonjour la couleur de père est :{{parentColor}}
+</div>  -->
+
+<!-- <app-fils [dataParent]= "'donnee de fils'"></app-fils>
+<app-fils [parentColor]= "color"></app-fils>
+<app-fils [parentColor]= "'bleu'"></app-fils>
+<app-fils (sendDataFromSon)="treatSonData($event)"  [parentColor]= "'yellow'"></app-fils>
+<input type="color" [(ngModel)]="color"> -->
